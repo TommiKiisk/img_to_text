@@ -8,9 +8,24 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 pdf_path = r"D:\Tommi\ohke_tekno\img_to_text\test_images\Catan_rules.pdf"
 
+print("start")
+
 images = convert_from_path(pdf_path,)
+whole_text = ""
 
 # images from pdf to string
 for i, image in enumerate(images):
-    text = pytesseract.image_to_string(image)
-    print(f"Text from page {i + 1}: {text}")
+    text = pytesseract.image_to_string(image.convert('L'))
+    whole_text += text
+
+print(whole_text)
+    
+print("converting end")
+
+nimi = input("Anna tekstille nimi: ")
+
+filename = nimi + ".txt"
+
+with open(filename, 'w') as file:
+    file.write(whole_text)
+    
