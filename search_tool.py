@@ -1,6 +1,6 @@
 import re
 
-file = input("Mistä haluat etsiä? ")
+file = input("Mistä haluat etsiä? (nimi.txt muodossa) ")
 
 with open(file, "r") as f:
     text = f.read()

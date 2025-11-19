@@ -47,10 +47,21 @@
 ### ![koodi ja tulos](image-9.png)
 
 
+## Neljäs sessio:
+
+### pdf tiedostoja käsittelevä työkalu nyt tallentaa sen stringin .txt tiedostoon. Piti vähän muistuttaa pythonin käyttöä https://www.geeksforgeeks.org/python/saving-text-json-and-csv-to-a-file-in-python/ sivulta. 
+
+### Tein myös yksinkertaisen työkalun, jolla saa etsittyä aikaisemmin luodusta .txt tiedostosta avainsanoilla asioita kontekstineen. Ohjelma kysyy mistä tiedostosta etsitään ja sitten mitä etsitään. 
+
+### Piti oppia käyttämään pythonin RegEx kirjastoa, josta sain hyviä työkaluja tekstin hakemiseen: https://www.w3schools.com/python/python_regex.asp
+
+### Piti myös katsoa miten pythonissa käytetään lambdaa: https://www.geeksforgeeks.org/python/python-lambda/ 
 
 
 
-## commitit järjestyksessä:
+
+
+## commit-viestit järjestyksessä:
 
 ### mathquote test. doesnt show anything from the image yet
 
@@ -62,6 +73,8 @@
 
 ### asioiden järjestelyä ja suomenkielisen tekstin lukeminen kuvasta
 
+### pdf converter tallentaa stringin .txt tiedostoon ja nyt on olemassa myös jonkinlainen työkalu .txt tiedostosta etsimiseen
+
 
 
 ## Lähteet
@@ -71,3 +84,14 @@
 ### https://pypi.org/project/pytesseract/
 
 ### https://github.com/UB-Mannheim/tesseract/wiki
+
+### https://www.geeksforgeeks.org/python/python-lambda/
+
+### https://www.w3schools.com/python/python_regex.asp
+
+### https://www.geeksforgeeks.org/python/saving-text-json-and-csv-to-a-file-in-python/
+
+### https://www.nutrient.io/blog/tesseract-python-guide/
+
+### https://chatgpt.com
+
