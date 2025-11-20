@@ -25,8 +25,13 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
  'tel', 'tgk', 'tha', 'tir', 'ton', 'tur', 'uig', 'ukr', 'urd', 'uzb',
  'uzb_cyrl', 'vie', 'yid', 'yor']
  """
- 
-image = Image.open('test_images/koira_runo.png')
+
+kuva = input("Anna kuvan polku: ")
+
+if kuva:
+    image = Image.open(f"{kuva}")
+else:
+    image = Image.open('test_images/koira_runo.png')
 
 gray_image = image.convert('L')
 

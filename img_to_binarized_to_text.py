@@ -6,8 +6,12 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 print("start")
 
-# read img with
-image = cv2.imread('test_images/mathquote.jpg')
+kuva = input("Give path of the image: ")
+
+if kuva:
+    image = cv2.imread(f"{kuva}")
+else:
+    image = cv2.imread('test_images/mathquote.jpg')
 
 # convert into black and white
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

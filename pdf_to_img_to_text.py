@@ -6,10 +6,14 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 # converting pdf into images using pdf2image library
 
-pdf_path = r"D:\Tommi\ohke_tekno\img_to_text\test_images\Catan_rules.pdf"
+
+kysypdf = input("Give path to the pdf: ")
 
 print("start")
-
+if kysypdf:
+    pdf_path = kysypdf
+else:
+    pdf_path = r"D:\Tommi\ohke_tekno\img_to_text\test_images\Catan_rules.pdf"
 images = convert_from_path(pdf_path,)
 whole_text = ""
 
@@ -22,7 +26,7 @@ print(whole_text)
     
 print("converting end")
 
-nimi = input("Anna tekstille nimi: ")
+nimi = input("Name the output file (without .txt): ")
 
 filename = nimi + ".txt"
 
