@@ -1,7 +1,19 @@
 # Seminaarityön raportti
 
+## Tavoitteet
 ### Tässä seminaarityössä on tarkoitus tutkia pythonin tesseract kirjastoa, miten sitä käytetään ja tehdä työkalu, joka etsii tekstiä kuvasta tai kuvista tai pdf:stä.
 
+## Teknologiat:
+### Aluksi ajatus oli vaan kokeila pythonin tesseract kirjastoa, mutta aika nopeasti selvisi, että tarvitsen muitakin kirjastoja tavoitteisiin pääsyyn.
+### Tässä kaikki minulle uudet kirjastot:
+
+#### Tesseract: Saa lueettua tekstiä kuvasta ja muunnettua sitä harmaansävyiseksi, jotta lukeminen olisi koneelle helpompaa. Saa myös luettua erikielisiä tekstejä.
+#### cv2: Tässä työssä sitä käytin kuvan binääriseksi muuntamisessa eli kuvasta tulee täysin musta-valkoinen. Tämä auttaa lukemaan tekstiä vieläkin paremmin.
+#### pdf2image: Tällä saa pdf sivun kuvan muotoon, jotta sitä voisi lukea. Tässä työssä käytin tätä for loopissa, jotta tulisi koko pdf tiedosto käännettyä kuviksi ja luettua.
+#### regex: Sellainenkin kirjasto tuli vastaan. Tässä työssä käytin sitä vain apuna tekstin hakemisessa enkä perehtynyt tähän kirjastoon sen enempää.
+
+
+## Toteutus:
 
 ## Ensimmäinen sessio:
 
@@ -58,6 +70,17 @@
 ### Piti myös katsoa miten pythonissa käytetään lambdaa: https://www.geeksforgeeks.org/python/python-lambda/ 
 
 
+## Viides sessio:
+
+### Tein pikku muutoksia jokaiseen converteriin, jotta niitä olisi kivempi käyttää. Lähinnä, että se kysyy aluksi kuvan tai pdf:n path:ia ja jos annetaan tyhjä niin se ottaa esimerkkitiedoston. Raportin kirjoittelua melkein valmiiksi.
+
+
+## Mitä opin?
+
+### Opin käyttämään uusia python kirjastoja, hakemaan tietoa niistä kirjastoista ja säätämään kirjaston path:in oikeaksi, jotta se toimisi. Tulin myös tutummaksi markdown tiedostoon kirjoittamisen kanssa. Pyrin myös kirjoittamaan järkevämpiä commit-viestejä kuin aikaisemmin. Pythonia tuli taas muistutettua mieleen jonkun verran. Näistä kirjoitin tarkemmin sessioissa.
+
+
+## Linkki esitysvideoon: 
 
 
 
@@ -75,6 +98,9 @@
 
 ### pdf converter tallentaa stringin .txt tiedostoon ja nyt on olemassa myös jonkinlainen työkalu .txt tiedostosta etsimiseen
 
+### raporttia ja pikkukorjauksia
+
+### a bit more user friendly
 
 
 ## Lähteet
