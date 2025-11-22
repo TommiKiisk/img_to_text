@@ -63,6 +63,8 @@
 
 ### pdf tiedostoja käsittelevä työkalu nyt tallentaa sen stringin .txt tiedostoon. Piti vähän muistuttaa pythonin käyttöä https://www.geeksforgeeks.org/python/saving-text-json-and-csv-to-a-file-in-python/ sivulta. 
 
+### linkki esimerrki .txt tiedostoon: https://github.com/TommiKiisk/img_to_text/blob/main/catan.txt
+
 ### Tein myös yksinkertaisen työkalun, jolla saa etsittyä aikaisemmin luodusta .txt tiedostosta avainsanoilla asioita kontekstineen. Ohjelma kysyy mistä tiedostosta etsitään ja sitten mitä etsitään. 
 
 ### Piti oppia käyttämään pythonin RegEx kirjastoa, josta sain hyviä työkaluja tekstin hakemiseen: https://www.w3schools.com/python/python_regex.asp
@@ -79,8 +81,14 @@
 
 ### Opin käyttämään uusia python kirjastoja, hakemaan tietoa niistä kirjastoista ja säätämään kirjaston path:in oikeaksi, jotta se toimisi. Tulin myös tutummaksi markdown tiedostoon kirjoittamisen kanssa. Pyrin myös kirjoittamaan järkevämpiä commit-viestejä kuin aikaisemmin. Pythonia tuli taas muistutettua mieleen jonkun verran. Näistä kirjoitin tarkemmin sessioissa.
 
+### Jatkokehitys:
+#### Mahdollisesti tehdä helpompikäyttöistä. Tekstin hakeminen kontekstineen olisi järkevämpi ja sitä voisi hakea monella hakusanalla. Mahdollisesti käytän tätä mobiiliohjelmointi-kurssin työssä, pitää katsoa sopiiko se yhteen expon kanssa vai löytyykö siihen eri työkalu.
+
+
+
 
 ## Linkki esitysvideoon: 
+
 
 
 
@@ -101,6 +109,7 @@
 ### raporttia ja pikkukorjauksia
 
 ### a bit more user friendly
+
 
 
 ## Lähteet
