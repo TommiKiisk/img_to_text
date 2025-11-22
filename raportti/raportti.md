@@ -76,6 +76,10 @@
 
 ### Tein pikku muutoksia jokaiseen converteriin, jotta niitä olisi kivempi käyttää. Lähinnä, että se kysyy aluksi kuvan tai pdf:n path:ia ja jos annetaan tyhjä niin se ottaa esimerkkitiedoston. Raportin kirjoittelua melkein valmiiksi.
 
+## Kuudes sessio:
+
+### Viimeistelyä, readme, videon kuvaaminen ja palauttaminen
+
 
 ## Mitä opin?
 
@@ -87,7 +91,7 @@
 
 
 
-## Linkki esitysvideoon: 
+## Linkki esitysvideoon: https://haagahelia-my.sharepoint.com/:v:/g/personal/bhi051_myy_haaga-helia_fi/IQA30FoIU2t2R6ghHKqakUxnAbHHy1bb2ihEs2-wgoDPaqg?e=hhTvvr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 
